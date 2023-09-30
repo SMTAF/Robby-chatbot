@@ -6,17 +6,17 @@ st.set_page_config(layout="wide", page_icon="💬", page_title="Ecit | Chat-Bot 
 
 
 #Contact
-with st.sidebar.expander("📬 Contact"):
+# with st.sidebar.expander("📬 Contact"):
 
-    st.write("**GitHub:**",
-"[yvann-hub/Robby-chatbot](https://github.com/yvann-hub/Robby-chatbot)")
+#     st.write("**GitHub:**",
+# "[yvann-hub/Robby-chatbot](https://github.com/yvann-hub/Robby-chatbot)")
 
-    st.write("**Medium:** "
-"[@yvann-hub](https://medium.com/@yvann-hub)")
+#     st.write("**Medium:** "
+# "[@yvann-hub](https://medium.com/@yvann-hub)")
 
-    st.write("**Twitter:** [@yvann_hub](https://twitter.com/yvann_hub)")
-    st.write("**Mail** : barbot.yvann@gmail.com")
-    st.write("**Created by Yvann**")
+#     st.write("**Twitter:** [@yvann_hub](https://twitter.com/yvann_hub)")
+#     st.write("**Mail** : barbot.yvann@gmail.com")
+#     st.write("**Created by Yvann**")
 
 
 #Title
