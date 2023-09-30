@@ -1,4 +1,4 @@
-itimport streamlit as st
+titimport streamlit as st
 
 
 #Config
