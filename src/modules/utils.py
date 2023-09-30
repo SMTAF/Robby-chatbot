@@ -17,7 +17,10 @@ class Utilities:
         if not hasattr(st.session_state, "api_key"):
             st.session_state.api_key = None
         # Replace 'your_api_key_here' with your actual OpenAI API key
-        os.environ['OPENAI_API_KEY'] = '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'
+
+        os.environ["OPENAI_API_KEY"] == st.secrets["OPENAI_API_KEY"],
+
+        # os.environ['OPENAI_API_KEY'] = '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'
         #you can define your API key in .env directly
         # if os.path.exists(".env") and os.environ.get("OPENAI_API_KEY") is not None:
         if  os.environ.get("OPENAI_API_KEY") is not None:
